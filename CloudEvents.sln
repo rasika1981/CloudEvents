@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{284F2910-B9AE-49DC-B4F9-03974E1FC9BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{229891E6-FE97-4633-831F-0755AEE18E19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{A7139F56-F46C-4E49-AAAD-0CDA27442360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudEvents.Listener", "src\services\CloudEvents.Listener\CloudEvents.Listener.csproj", "{4C2D0AFA-B0B9-4FED-A6D4-C5C5D2B5917E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudEvents.Listener.Tests", "tests\CloudEvents.Listener.Tests\CloudEvents.Listener.Tests.csproj", "{76816B78-B093-45EE-A5B0-169E2CA58E0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C2D0AFA-B0B9-4FED-A6D4-C5C5D2B5917E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2D0AFA-B0B9-4FED-A6D4-C5C5D2B5917E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2D0AFA-B0B9-4FED-A6D4-C5C5D2B5917E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2D0AFA-B0B9-4FED-A6D4-C5C5D2B5917E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76816B78-B093-45EE-A5B0-169E2CA58E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76816B78-B093-45EE-A5B0-169E2CA58E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76816B78-B093-45EE-A5B0-169E2CA58E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76816B78-B093-45EE-A5B0-169E2CA58E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7139F56-F46C-4E49-AAAD-0CDA27442360} = {284F2910-B9AE-49DC-B4F9-03974E1FC9BC}
+		{4C2D0AFA-B0B9-4FED-A6D4-C5C5D2B5917E} = {A7139F56-F46C-4E49-AAAD-0CDA27442360}
+		{76816B78-B093-45EE-A5B0-169E2CA58E0D} = {229891E6-FE97-4633-831F-0755AEE18E19}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFD12695-CA36-4BF1-B579-8ECE174EEDD0}
+	EndGlobalSection
+EndGlobal
